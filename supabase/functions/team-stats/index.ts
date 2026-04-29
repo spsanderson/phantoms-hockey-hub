@@ -44,7 +44,8 @@ Deno.serve(async (req) => {
     if (!LOVABLE_API_KEY) throw new Error("LOVABLE_API_KEY is not configured");
     if (!GOOGLE_SHEETS_API_KEY) throw new Error("GOOGLE_SHEETS_API_KEY is not configured");
 
-    const url = `${GATEWAY_URL}/spreadsheets/${SPREADSHEET_ID}/values/${SHEET}!A6:AA1000`;
+    const range = `${SHEET}!A6:AA1000`;
+    const url = `${GATEWAY_URL}/spreadsheets/${SPREADSHEET_ID}/values:batchGet?ranges=${encodeURIComponent(range)}`;
     const res = await fetch(url, {
       headers: {
         Authorization: `Bearer ${LOVABLE_API_KEY}`,
@@ -56,7 +57,7 @@ Deno.serve(async (req) => {
       throw new Error(`Sheets API failed [${res.status}]: ${JSON.stringify(body)}`);
     }
 
-    const rows: string[][] = body.values ?? [];
+    const rows: string[][] = body.valueRanges?.[0]?.values ?? [];
     const header = rows[0] ?? [];
     const dataRows = rows.slice(1).filter((r) => r && r[1]);
 
