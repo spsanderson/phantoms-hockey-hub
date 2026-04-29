@@ -57,7 +57,7 @@ Deno.serve(async (req) => {
       throw new Error(`Sheets API failed [${res.status}]: ${JSON.stringify(body)}`);
     }
 
-    const rows: string[][] = body.values ?? [];
+    const rows: string[][] = body.valueRanges?.[0]?.values ?? [];
     const header = rows[0] ?? [];
     const dataRows = rows.slice(1).filter((r) => r && r[1]);
 
