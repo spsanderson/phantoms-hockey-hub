@@ -57,6 +57,25 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "phantom-purple": "hsl(var(--phantom-purple))",
+        "phantom-purple-deep": "hsl(var(--phantom-purple-deep))",
+        "phantom-blue": "hsl(var(--phantom-blue))",
+        "ice-blue": "hsl(var(--ice-blue))",
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-phantom": "var(--gradient-phantom)",
+        "gradient-mist": "var(--gradient-mist)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        phantom: "var(--shadow-phantom)",
+        glow: "var(--shadow-glow)",
+        card: "var(--shadow-card)",
+      },
+      fontFamily: {
+        display: ["Bebas Neue", "Inter", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
