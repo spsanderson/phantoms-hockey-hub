@@ -1,56 +1,81 @@
-import { Calendar, MapPin } from "lucide-react";
+import { useEffect, useRef } from "react";
 
-const games = [
-  { date: "MAY 04", time: "7:30 PM", opponent: "Iron Wolves", location: "Rink 2 — Home", status: "upcoming" },
-  { date: "MAY 11", time: "8:15 PM", opponent: "Northside Crows", location: "Northside Dek", status: "upcoming" },
-  { date: "MAY 18", time: "7:00 PM", opponent: "Riverside Rebels", location: "Rink 2 — Home", status: "upcoming" },
-  { date: "APR 27", time: "—", opponent: "Steel City", location: "Rink 1", status: "W 5–3" },
-  { date: "APR 20", time: "—", opponent: "Bay Bandits", location: "Bayfront", status: "L 2–4" },
-];
+declare global {
+  interface Window {
+    snPlugin?: {
+      init: () => void;
+      renderOrganization: (config: Record<string, unknown>) => void;
+    };
+  }
+}
 
 export const Schedule = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const initializedRef = useRef(false);
+
+  useEffect(() => {
+    if (initializedRef.current) return;
+
+    const SCRIPT_SRC = "https://plugin.sportninja.com/sportninja-plugin.js";
+
+    const render = () => {
+      if (!window.snPlugin || !containerRef.current) return;
+      try {
+        window.snPlugin.init();
+        window.snPlugin.renderOrganization({
+          teamId: "Z6UmwMtff38o8OkO",
+          backgroundColor: "#0B0F1A",
+          textColor: "#E6ECF5",
+          headerBackgroundColor: "#1A0F2E",
+          headerTextColor: "#F5F0FF",
+          primaryColor: "#8B5CF6",
+          borderColor: "#2A2438",
+          disableSuspensionsTab: false,
+          disableScheduleTab: false,
+          disableStandingsTab: false,
+          disableStatisticsTab: false,
+          disableAnnouncementsTab: false,
+          disableProvider: true,
+        });
+        initializedRef.current = true;
+      } catch (e) {
+        console.error("SportNinja plugin failed to render", e);
+      }
+    };
+
+    const existing = document.querySelector<HTMLScriptElement>(
+      `script[src="${SCRIPT_SRC}"]`
+    );
+    if (existing && window.snPlugin) {
+      render();
+    } else if (existing) {
+      existing.addEventListener("load", render, { once: true });
+    } else {
+      const script = document.createElement("script");
+      script.src = SCRIPT_SRC;
+      script.async = true;
+      script.onload = render;
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <section id="schedule" className="py-24 md:py-32 bg-secondary/30 relative">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <p className="text-primary uppercase tracking-[0.3em] text-sm mb-4">2026 Season</p>
-          <h2 className="text-4xl md:text-6xl font-display">Schedule & Results</h2>
+          <h2 className="text-4xl md:text-6xl font-display">Schedule & Standings</h2>
+          <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
+            Live games, results, and stats powered by SportNinja.
+          </p>
         </div>
 
-        <div className="grid gap-4 max-w-4xl mx-auto">
-          {games.map((g, i) => (
-            <div
-              key={i}
-              className="glass rounded-xl p-5 md:p-6 flex flex-wrap md:flex-nowrap items-center gap-4 md:gap-6 hover:border-primary/50 transition-all duration-300 hover:shadow-glow"
-            >
-              <div className="flex-shrink-0 text-center min-w-[70px]">
-                <div className="font-display text-2xl text-gradient-phantom">{g.date}</div>
-                <div className="text-xs text-muted-foreground mt-1">{g.time}</div>
-              </div>
-              <div className="hidden md:block w-px h-12 bg-border" />
-              <div className="flex-1 min-w-0">
-                <div className="font-semibold text-lg text-foreground">vs {g.opponent}</div>
-                <div className="text-sm text-muted-foreground flex items-center gap-1.5 mt-1">
-                  <MapPin className="h-3.5 w-3.5" /> {g.location}
-                </div>
-              </div>
-              <div className="flex-shrink-0">
-                {g.status === "upcoming" ? (
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/15 text-primary text-xs font-semibold uppercase tracking-wider">
-                    <Calendar className="h-3 w-3" /> Upcoming
-                  </span>
-                ) : (
-                  <span
-                    className={`px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider ${
-                      g.status.startsWith("W") ? "bg-accent/20 text-accent" : "bg-destructive/20 text-destructive"
-                    }`}
-                  >
-                    {g.status}
-                  </span>
-                )}
-              </div>
-            </div>
-          ))}
+        <div className="max-w-6xl mx-auto glass rounded-2xl overflow-hidden border border-border/60">
+          <div
+            id="main-content"
+            ref={containerRef}
+            className="main-content min-h-[600px] bg-background"
+          />
         </div>
       </div>
     </section>
