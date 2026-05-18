@@ -18,6 +18,41 @@ export const Schedule = () => {
 
     const SCRIPT_SRC = "https://plugin.sportninja.com/sportninja-plugin.js";
 
+    const OVERRIDE_CSS = `
+      div > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(4) > div > div > div:nth-child(2) {
+        background-color: #64748b !important;
+      }
+    `;
+
+    const findShadowRoot = (): ShadowRoot | null => {
+      const host =
+        (document.getElementById("sn-root-plugin") as HTMLElement | null) ??
+        (containerRef.current?.querySelector("*") as HTMLElement | null);
+      if (host?.shadowRoot) return host.shadowRoot;
+      const all = containerRef.current?.querySelectorAll<HTMLElement>("*") ?? [];
+      for (const el of all) {
+        if (el.shadowRoot) return el.shadowRoot;
+      }
+      return null;
+    };
+
+    const injectShadowStyle = () => {
+      const root = findShadowRoot();
+      if (!root) return;
+      if (root.querySelector("style[data-phantoms-override]")) return;
+      const style = document.createElement("style");
+      style.setAttribute("data-phantoms-override", "");
+      style.textContent = OVERRIDE_CSS;
+      root.appendChild(style);
+    };
+
+    let observer: MutationObserver | null = null;
+    const startObserver = () => {
+      if (!containerRef.current) return;
+      observer = new MutationObserver(() => injectShadowStyle());
+      observer.observe(containerRef.current, { childList: true, subtree: true });
+    };
+
     const render = () => {
       if (!window.snPlugin || !containerRef.current) return;
       try {
@@ -38,6 +73,8 @@ export const Schedule = () => {
           disableProvider: true,
         });
         initializedRef.current = true;
+        injectShadowStyle();
+        startObserver();
       } catch (e) {
         console.error("SportNinja plugin failed to render", e);
       }
@@ -57,7 +94,12 @@ export const Schedule = () => {
       script.onload = render;
       document.body.appendChild(script);
     }
+
+    return () => {
+      observer?.disconnect();
+    };
   }, []);
+
 
   return (
     <section id="schedule" className="py-24 md:py-32 bg-secondary/30 relative">
