@@ -113,7 +113,7 @@ export const Roster = () => {
                   <tbody>
                     {data.players.map((p, i) => (
                       <tr key={`${p.number}-${p.player}`} className="border-t border-border/50 hover:bg-secondary/30 transition-colors">
-                        <td className="px-4 py-3 font-display text-gradient-phantom">{p.number || "—"}</td>
+                        <td className="px-4 py-3 font-display text-slate-800">{p.number || "—"}</td>
                         <td className="px-4 py-3 font-medium text-foreground flex items-center gap-2">
                           {p.player}
                           {i === 0 && p.pts > 0 && <TrendingUp className="h-3.5 w-3.5 text-accent" />}
