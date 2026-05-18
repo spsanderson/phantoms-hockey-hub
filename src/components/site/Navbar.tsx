@@ -5,7 +5,7 @@ import logo from "@/assets/phantoms-logo.jpg";
 const links = [
   { href: "#about", label: "About" },
   { href: "#schedule", label: "Schedule" },
-  { href: "#roster", label: "Roster" },
+  
   { href: "#news", label: "News" },
   { href: "#contact", label: "Contact" },
 ];

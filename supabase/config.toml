@@ -1,4 +1,1 @@
 project_id = "nadhjwjkwpkuymlyrest"
-
-[functions.team-stats]
-verify_jwt = false
