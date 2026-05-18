@@ -30,7 +30,7 @@ export const Contact = () => {
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-muted-foreground">Email</div>
-                <div className="font-semibold text-foreground">hello@phantomshockey.org</div>
+                <div className="font-semibold text-foreground">admin@phantomshockey.org</div>
               </div>
             </a>
             <a href="#" className="glass rounded-xl p-5 flex items-center gap-4 hover:border-primary/50 transition-all">
