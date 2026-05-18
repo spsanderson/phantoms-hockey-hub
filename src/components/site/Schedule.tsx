@@ -79,7 +79,7 @@ export const Schedule = () => {
           <div
             id="main-content"
             ref={containerRef}
-            className="main-content min-h-[600px] bg-slate-500"
+            className="main-content min-h-[600px]"
           />
         </div>
       </div>
