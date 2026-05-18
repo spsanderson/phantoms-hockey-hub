@@ -24,7 +24,7 @@ export const Schedule = () => {
         window.snPlugin.init();
         window.snPlugin.renderOrganization({
           teamId: "Z6UmwMtff38o8OkO",
-          backgroundColor: "#0B0F1A",
+          backgroundColor: "#64748b",
           textColor: "#E6ECF5",
           headerBackgroundColor: "#1e293b",
           headerTextColor: "#F5F0FF",
@@ -74,7 +74,7 @@ export const Schedule = () => {
           <div
             id="main-content"
             ref={containerRef}
-            className="main-content min-h-[600px] bg-background"
+            className="main-content min-h-[600px] bg-slate-500"
           />
         </div>
       </div>
