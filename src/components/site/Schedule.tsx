@@ -18,53 +18,18 @@ export const Schedule = () => {
 
     const SCRIPT_SRC = "https://plugin.sportninja.com/sportninja-plugin.js";
 
-    const OVERRIDE_CSS = `
-      div > div > div:nth-child(2) > div:nth-child(3) > div:nth-child(4) > div > div > div:nth-child(2) {
-        background-color: #64748b !important;
-      }
-    `;
-
-    const findShadowRoot = (): ShadowRoot | null => {
-      const host =
-        (document.getElementById("sn-root-plugin") as HTMLElement | null) ??
-        (containerRef.current?.querySelector("*") as HTMLElement | null);
-      if (host?.shadowRoot) return host.shadowRoot;
-      const all = containerRef.current?.querySelectorAll<HTMLElement>("*") ?? [];
-      for (const el of all) {
-        if (el.shadowRoot) return el.shadowRoot;
-      }
-      return null;
-    };
-
-    const injectShadowStyle = () => {
-      const root = findShadowRoot();
-      if (!root) return;
-      if (root.querySelector("style[data-phantoms-override]")) return;
-      const style = document.createElement("style");
-      style.setAttribute("data-phantoms-override", "");
-      style.textContent = OVERRIDE_CSS;
-      root.appendChild(style);
-    };
-
-    let observer: MutationObserver | null = null;
-    const startObserver = () => {
-      if (!containerRef.current) return;
-      observer = new MutationObserver(() => injectShadowStyle());
-      observer.observe(containerRef.current, { childList: true, subtree: true });
-    };
-
     const render = () => {
       if (!window.snPlugin || !containerRef.current) return;
       try {
         window.snPlugin.init();
         window.snPlugin.renderOrganization({
           teamId: "Z6UmwMtff38o8OkO",
-          backgroundColor: "#64748b",
-          textColor: "#E6ECF5",
-          headerBackgroundColor: "#1e293b",
-          headerTextColor: "#F5F0FF",
-          primaryColor: "#f8fafc",
-          borderColor: "transparent",
+          backgroundColor: "#050505",
+          textColor: "#ffffff",
+          headerBackgroundColor: "#F2B400",
+          headerTextColor: "#ffffff",
+          primaryColor: "#F2B400",
+          borderColor: "#27303E",
           disableSuspensionsTab: false,
           disableScheduleTab: false,
           disableStandingsTab: false,
@@ -73,8 +38,6 @@ export const Schedule = () => {
           disableProvider: true,
         });
         initializedRef.current = true;
-        injectShadowStyle();
-        startObserver();
       } catch (e) {
         console.error("SportNinja plugin failed to render", e);
       }
