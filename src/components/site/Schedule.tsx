@@ -59,7 +59,7 @@ export const Schedule = () => {
     }
 
     return () => {
-      observer?.disconnect();
+      // cleanup
     };
   }, []);
 
