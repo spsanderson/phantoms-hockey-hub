@@ -24,7 +24,7 @@ export const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <div className="space-y-6">
-            <a href="mailto:hello@phantomshockey.org" className="glass rounded-xl p-5 flex items-center gap-4 hover:border-primary/50 transition-all">
+            <a href="mailto:admin@phantomshockey.org" className="glass rounded-xl p-5 flex items-center gap-4 hover:border-primary/50 transition-all">
               <div className="h-11 w-11 rounded-full bg-gradient-phantom flex items-center justify-center">
                 <Mail className="h-5 w-5 text-primary-foreground" />
               </div>
