@@ -25,12 +25,12 @@ export const Schedule = () => {
         window.snPlugin.init();
         window.snPlugin.renderOrganization({
           teamId: "Z6UmwMtff38o8OkO",
-          backgroundColor: "#FFFFFF",
-          textColor: "#27303E",
+          backgroundColor: "transparent",
+          textColor: "#FFFFFF",
           headerBackgroundColor: "#F2B400",
           headerTextColor: "#27303E",
           primaryColor: "#F2B400",
-          borderColor: "#27303E",
+          borderColor: "#F2B400",
           disableSuspensionsTab: false,
           disableScheduleTab: false,
           disableStandingsTab: false,
@@ -76,8 +76,8 @@ export const Schedule = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden border border-primary/40 bg-white shadow-[0_24px_80px_-32px_rgba(242,180,0,0.55)]">
-          <div className="flex flex-col gap-2 border-b border-[#27303E]/15 bg-gradient-to-r from-[#F2B400] to-[#FFE7A3] px-5 py-4 text-[#27303E] md:flex-row md:items-center md:justify-between">
+        <div className="max-w-6xl mx-auto rounded-2xl overflow-hidden border border-primary/40 bg-background/40 backdrop-blur-md shadow-[0_24px_80px_-32px_rgba(242,180,0,0.55)]">
+          <div className="flex flex-col gap-2 border-b border-[#F2B400]/30 bg-gradient-to-r from-[#F2B400] to-[#FFE7A3] px-5 py-4 text-[#27303E] md:flex-row md:items-center md:justify-between">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.28em] opacity-80">
                 Phantoms Team Center
@@ -94,7 +94,7 @@ export const Schedule = () => {
           <div
             id="main-content"
             ref={containerRef}
-            className="main-content min-h-[600px] bg-white p-2 text-[#27303E] md:p-4"
+            className="main-content min-h-[600px] bg-transparent p-2 text-white md:p-4"
           />
         </div>
       </div>
