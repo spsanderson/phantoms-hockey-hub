@@ -23,7 +23,7 @@ export const About = () => {
           <div className="mt-8 grid grid-cols-3 gap-6">
             {[
               { n: "12", l: "Players" },
-              { n: "20+", l: "Games / Season" },
+              { n: "~10", l: "Games / Season" },
               { n: "1", l: "Family" },
             ].map((s) => (
               <div key={s.l} className="glass rounded-lg p-4 text-center">
