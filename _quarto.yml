@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Phantoms Hockey Hub"
-  site-url: "https://spsanderson.github.io/phantoms-hockey-hub/"
+  site-url: "https://www.phantomshockey.org/"
   navbar:
     pinned: true
     background: "#151B24"

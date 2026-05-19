@@ -1,1 +1,1 @@
-Sitemap: https://spsanderson.github.io/phantoms-hockey-hub/sitemap.xml
+Sitemap: https://www.phantomshockey.org/sitemap.xml
