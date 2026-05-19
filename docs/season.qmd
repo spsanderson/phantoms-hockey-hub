@@ -1,0 +1,47 @@
+---
+title: "Season"
+description: "Phantoms season notes, reminders, and team links."
+---
+
+Use this page for season-specific information that families need often but should not have to search for in message threads.
+
+## Quick Reminders
+
+::: {.callout-note appearance="simple"}
+Replace these starter notes with current season details: rink address, arrival time, jersey color, team chat link, payment notes, or tournament reminders.
+:::
+
+::: {.season-list}
+::: {.season-item}
+### Game Day
+
+Add arrival expectations, uniform color, equipment reminders, and any league-specific rules that matter most.
+:::
+
+::: {.season-item}
+### Practice
+
+Add practice location, usual timing, cancellation policy, and what players should bring.
+:::
+
+::: {.season-item}
+### Updates
+
+Add a short change log for schedule updates, roster notes, or team announcements.
+:::
+:::
+
+## Useful Links
+
+| Resource | Notes |
+|---|---|
+| [Team Center](team.qmd) | Live schedule, standings, stats, and announcements. |
+| [Contact](contact.qmd) | Team contact and correction requests. |
+| [About](about.qmd) | Team overview and site purpose. |
+
+## Update Log
+
+| Date | Update |
+|---|---|
+| 2026-05-18 | Initial Quarto website structure created. |
+

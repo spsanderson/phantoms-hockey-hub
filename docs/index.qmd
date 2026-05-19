@@ -1,0 +1,88 @@
+---
+title: "Phantoms Hockey Hub"
+description: "Follow the Phantoms season from one team-focused website."
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.home-hero}
+::: {.home-hero__shade}
+:::
+::: {.home-hero__content}
+<p class="eyebrow">Phantoms hockey</p>
+
+# Follow the Phantoms all season.
+
+Schedules, standings, player stats, announcements, and team information live here so families and players can find what they need before game day.
+
+::: {.action-row}
+[Team Center](team.qmd){.button .button-primary}
+[Season Notes](season.qmd){.button .button-secondary}
+:::
+:::
+:::
+
+::: {.home-band}
+::: {.content-wrap}
+
+## Start Here
+
+::: {.feature-grid}
+::: {.feature-card}
+### Team Center
+
+Use the SportNinja-powered hub for current schedules, standings, stats, announcements, and results.
+
+[Open team center](team.qmd){.text-link}
+:::
+
+::: {.feature-card}
+### Season Details
+
+Keep common season notes, rink information, uniform reminders, and update history in one place.
+
+[View season page](season.qmd){.text-link}
+:::
+
+::: {.feature-card}
+### Contact
+
+Point families toward the right person for team questions, schedule changes, and corrections.
+
+[Get in touch](contact.qmd){.text-link}
+:::
+:::
+
+:::
+:::
+
+::: {.split-band}
+::: {.content-wrap .split-layout}
+::: {.split-copy}
+## Built For Quick Checks
+
+This site is intentionally direct: the live team data is one click away, key links stay in the navigation, and the design uses the Phantoms watercolor palette without getting in the way of game-day information.
+
+::: {.stat-strip}
+::: {.stat-item}
+<span>01</span>
+Live team data
+:::
+::: {.stat-item}
+<span>02</span>
+Season notes
+:::
+::: {.stat-item}
+<span>03</span>
+Family updates
+:::
+:::
+:::
+
+::: {.split-media}
+![](logos/phantoms-banner.jpg){fig-alt="Phantoms watercolor banner logo"}
+:::
+:::
+:::

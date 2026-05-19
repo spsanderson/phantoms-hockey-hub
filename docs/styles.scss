@@ -1,0 +1,367 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+$body-bg: #f7f6f9;
+$body-color: #261336;
+$link-color: #4b1d65;
+$navbar-bg: #21142c;
+$navbar-fg: #ffffff;
+$navbar-hl: #d7cae5;
+
+/*-- scss:rules --*/
+:root {
+  --phantom-ink: #21142c;
+  --phantom-purple: #4b1d65;
+  --phantom-lavender: #b8abc9;
+  --phantom-mist: #e8e2ef;
+  --phantom-blue: #9db9cf;
+  --phantom-blue-deep: #314d68;
+  --phantom-ice: #f7f6f9;
+  --phantom-paper: #ffffff;
+  --phantom-line: #d8d1df;
+  --phantom-muted: #6e6578;
+  --phantom-shadow: 0 18px 48px rgba(33, 20, 44, 0.14);
+}
+
+body {
+  background:
+    linear-gradient(180deg, rgba(232, 226, 239, 0.72), rgba(247, 246, 249, 0.95) 18rem),
+    var(--phantom-ice);
+  color: var(--phantom-ink);
+}
+
+a {
+  font-weight: 700;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 28px rgba(20, 13, 28, 0.22);
+}
+
+.navbar-logo {
+  max-height: 2.25rem;
+  border-radius: 6px;
+}
+
+.navbar-title {
+  font-weight: 900;
+}
+
+.quarto-title-banner {
+  background:
+    linear-gradient(90deg, rgba(33, 20, 44, 0.96), rgba(75, 29, 101, 0.86)),
+    url("logos/phantoms-banner.jpg") center 54% / cover;
+  color: #fff;
+}
+
+.quarto-title-banner .title {
+  color: #fff;
+  font-weight: 900;
+}
+
+.home-hero {
+  position: relative;
+  min-height: 74vh;
+  display: grid;
+  align-items: end;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(13, 18, 31, 0.9), rgba(33, 20, 44, 0.7) 48%, rgba(49, 77, 104, 0.36)),
+    url("logos/hero-rink.jpg") center / cover;
+}
+
+.home-hero__shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(13, 18, 31, 0.82), transparent 42%);
+}
+
+.home-hero__content {
+  position: relative;
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 6rem 0 5rem;
+  color: #fff;
+}
+
+.home-hero h1 {
+  max-width: 780px;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  line-height: 0.98;
+  font-weight: 950;
+}
+
+.home-hero p:not(.eyebrow) {
+  max-width: 680px;
+  margin: 1.25rem 0 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 0 1rem;
+  padding: 0.42rem 0.62rem;
+  border: 1px solid rgba(232, 226, 239, 0.55);
+  border-radius: 8px;
+  color: #f4eef8;
+  background: rgba(75, 29, 101, 0.5);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.eyebrow-dark {
+  color: var(--phantom-purple);
+  background: rgba(232, 226, 239, 0.86);
+  border-color: var(--phantom-line);
+}
+
+.action-row,
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.72rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 900;
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+}
+
+.button:hover,
+.button:focus {
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.button-primary {
+  color: #fff;
+  background: var(--phantom-purple);
+  box-shadow: 0 12px 24px rgba(75, 29, 101, 0.25);
+}
+
+.button-secondary {
+  color: var(--phantom-purple);
+  border: 1px solid var(--phantom-lavender);
+  background: rgba(255, 255, 255, 0.84);
+}
+
+.home-band,
+.split-band {
+  padding: clamp(3rem, 7vw, 5.5rem) 1rem;
+}
+
+.split-band {
+  background: #fff;
+  border-top: 1px solid var(--phantom-line);
+  border-bottom: 1px solid var(--phantom-line);
+}
+
+.content-wrap {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+}
+
+.content-wrap h2,
+main h2 {
+  color: var(--phantom-ink);
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.08;
+  font-weight: 900;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feature-grid.compact {
+  margin: 1.25rem 0 2rem;
+}
+
+.feature-card,
+.season-item {
+  min-height: 10rem;
+  padding: 1.25rem;
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 12px 28px rgba(33, 20, 44, 0.08);
+}
+
+.feature-card h3,
+.season-item h3 {
+  margin-top: 0;
+  color: var(--phantom-purple);
+  font-weight: 900;
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 0.5rem;
+}
+
+.split-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.88fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.split-copy p {
+  color: var(--phantom-muted);
+  font-size: 1.05rem;
+}
+
+.split-media img,
+.brand-lockup img {
+  width: 100%;
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  box-shadow: var(--phantom-shadow);
+}
+
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.stat-item {
+  padding: 0.9rem;
+  border-left: 4px solid var(--phantom-blue);
+  background: var(--phantom-mist);
+  border-radius: 8px;
+  color: var(--phantom-ink);
+  font-weight: 800;
+}
+
+.stat-item span {
+  display: block;
+  color: var(--phantom-blue-deep);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.team-center-shell,
+.contact-panel {
+  margin: 1rem 0 2rem;
+  overflow: hidden;
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--phantom-shadow);
+}
+
+.team-center-header {
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--phantom-line);
+  background:
+    linear-gradient(90deg, rgba(232, 226, 239, 0.95), rgba(157, 185, 207, 0.35)),
+    url("logos/phantoms-banner.jpg") right center / auto 150%;
+}
+
+.team-center-title h2 {
+  margin: 0;
+}
+
+.sportninja-frame {
+  min-height: 680px;
+  padding: 1rem;
+  background: #fff;
+}
+
+.season-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.brand-lockup {
+  width: min(520px, 100%);
+  margin: 1.5rem 0 2rem;
+}
+
+.contact-panel {
+  padding: clamp(1.25rem, 4vw, 2rem);
+  background:
+    linear-gradient(135deg, #fff, rgba(232, 226, 239, 0.88));
+}
+
+main table {
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(33, 20, 44, 0.06);
+}
+
+main thead {
+  background: var(--phantom-mist);
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active,
+.sidebar nav[role="doc-toc"] ul > li > ul > li > a.active {
+  border-left: 2px solid var(--phantom-purple);
+  color: var(--phantom-purple) !important;
+}
+
+.nav-footer {
+  border-top: 1px solid var(--phantom-line);
+  background: var(--phantom-ink);
+  color: #fff;
+}
+
+.nav-footer a {
+  color: #f4eef8;
+}
+
+@media (max-width: 900px) {
+  .feature-grid,
+  .season-list,
+  .stat-strip,
+  .split-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    min-height: 68vh;
+  }
+
+  .home-hero__content {
+    padding: 5rem 0 3.5rem;
+  }
+
+  .team-center-header {
+    background: linear-gradient(90deg, rgba(232, 226, 239, 0.98), rgba(157, 185, 207, 0.48));
+  }
+}
+
+@media (max-width: 560px) {
+  .home-hero h1 {
+    font-size: 3rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+

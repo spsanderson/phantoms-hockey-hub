@@ -1,0 +1,40 @@
+---
+title: "Contact"
+description: "Contact the Phantoms team."
+---
+
+Use this page for team questions, schedule updates, and corrections to the site.
+
+::: {.contact-panel}
+## Team Contact
+
+Add the preferred team contact name, email address, phone number, or team app link here.
+
+::: {.contact-actions}
+[Team Center](team.qmd){.button .button-primary}
+[Season Notes](season.qmd){.button .button-secondary}
+:::
+:::
+
+## Common Requests
+
+::: {.season-list}
+::: {.season-item}
+### Schedule Correction
+
+Send the game date, opponent, and the incorrect detail that needs to be fixed.
+:::
+
+::: {.season-item}
+### Player Information
+
+Send the player name and the update needed for roster or statistics notes.
+:::
+
+::: {.season-item}
+### General Question
+
+Send the question and the best way to reply.
+:::
+:::
+

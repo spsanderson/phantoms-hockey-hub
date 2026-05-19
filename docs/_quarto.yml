@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: .
+  render:
+    - "*.qmd"
+  resources:
+    - CNAME
+    - logos/
+
+website:
+  title: "Phantoms Hockey Hub"
+  site-url: "https://www.phantomshockey.org/"
+  description: "Team hub for Phantoms hockey schedules, standings, statistics, announcements, and season information."
+  favicon: logos/phantoms-logo.jpg
+  image: logos/phantoms-banner.jpg
+  page-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    logo: logos/phantoms-logo.jpg
+    logo-alt: "Phantoms logo"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Team Center"
+        href: team.qmd
+      - text: "Season"
+        href: season.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Contact"
+        href: contact.qmd
+  sidebar:
+    - title: "Team Center"
+      style: docked
+      contents:
+        - team.qmd
+        - season.qmd
+        - about.qmd
+        - contact.qmd
+  page-footer:
+    left: "(c) 2026 Phantoms Hockey Hub"
+    center:
+      - text: "Team Center"
+        href: team.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-location: right
+    page-layout: article
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="description" content="Official hub for Phantoms hockey schedules, standings, statistics, announcements, and team updates.">
