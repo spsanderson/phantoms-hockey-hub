@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Quarto site to GitHub Pages
 
 on:
   push:
@@ -22,17 +22,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
+      - name: Render Quarto site
+        uses: quarto-dev/quarto-actions/render@v2
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -40,7 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: _site
 
   deploy:
     environment:
