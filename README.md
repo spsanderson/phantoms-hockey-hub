@@ -62,4 +62,4 @@ Top player/location rows are sorted by points, then goals, then assists.
 
 This repository contains the source and published files for the Phantoms Hockey Hub website. The live site content lives under `docs/`, including the home page, team center, season notes, about page, contact page, styles, and logos.
 
-We try our hardest to update this site and README to accurately reflect all information as we get it.
+We do our best to keep this site and README up to date as new information becomes available.
