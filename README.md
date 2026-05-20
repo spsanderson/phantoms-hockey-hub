@@ -1,3 +1,4 @@
+# The one-stop shop for the Phantoms Hockey Team.
 # Phantoms Hockey Hub
 
 The Phantoms Hockey Hub is the entry point for team information, season notes, live team links, and a concise snapshot of Phantoms player statistics. The site is built as a Quarto website and is intended to help families, players, and coaches find schedule, standings, stats, announcement, and contact information quickly.
