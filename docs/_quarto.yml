@@ -9,7 +9,7 @@ project:
 
 website:
   title: "Phantoms Hockey Hub"
-  site-url: "https://www.phantomshockey.org/"
+  site-url: "https://phantomshockey.org/"
   description: "Team hub for Phantoms hockey schedules, standings, statistics, announcements, and season information."
   favicon: logos/phantoms-logo.jpg
   image: logos/phantoms-banner.jpg

@@ -1,1 +1,1 @@
-Sitemap: https://www.phantomshockey.org/sitemap.xml
+Sitemap: https://phantomshockey.org/sitemap.xml
