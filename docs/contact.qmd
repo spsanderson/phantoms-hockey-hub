@@ -8,7 +8,7 @@ Use this page for team questions, schedule updates, and corrections to the site.
 ::: {.contact-panel}
 ## Team Contact
 
-Add the preferred team contact name, email address, phone number, or team app link here.
+To contact the Phantoms for any inquiries such as joining the team [Contact Us](mailto:admin@phantomshockey.org)
 
 ::: {.contact-actions}
 [Team Center](team.qmd){.button .button-primary}
