@@ -35,7 +35,7 @@ Schedules, standings, player stats, announcements, and team information live her
 
 Use the SportNinja-powered hub for current schedules, standings, stats, announcements, and results.
 
-[Open team center](team.qmd){.button .button-primary}
+[Open team center](team.qmd){.text-link}
 :::
 
 ::: {.feature-card}
