@@ -229,8 +229,7 @@ main h2 {
   font-size: 1.05rem;
 }
 
-.split-media img,
-.brand-lockup img {
+.split-media img {
   width: 100%;
   border: 1px solid var(--phantom-line);
   border-radius: 8px;
@@ -297,7 +296,14 @@ main h2 {
 
 .brand-lockup {
   width: min(520px, 100%);
-  margin: 1.5rem 0 2rem;
+  margin: 1.5rem auto 2rem;
+  text-align: center;
+}
+
+.brand-lockup img {
+  display: block;
+  width: min(360px, 100%);
+  margin: 0 auto;
 }
 
 .contact-panel {
@@ -364,4 +370,3 @@ main thead {
     width: 100%;
   }
 }
-
