@@ -9,11 +9,7 @@ This page is for season-specific information that you and your players may need 
 
 ::: {.callout-note appearance="simple"}
 *Rink Address:*
-The Sports Arena Rink
-620 Middle Country Rd
-St James
-New York, 11780
-United States
+The Sports Arena Rink: 620 Middle Country Rd, St James, New York, 11780, United States
 :::
 
 ::: {.season-list}
@@ -32,7 +28,12 @@ On game day here are a few things everyone should do:
 ::: {.season-item}
 ### Practice
 
-Add practice location, usual timing, cancellation policy, and what players should bring.
+We are going to be at the park again this Saturday for Practice, if you can join we'd love to have you. Bring your stick, protection and water.
+
+When: This Saturday May 23rd, 2026 (Weather permitting)
+Time: Noon
+Location: (correct this time) 12 Pines Park on Southaven Ave, Medford
+Google Maps Link: https://maps.app.goo.gl/ByVGqeR72tDojN4q6
 :::
 
 ::: {.season-item}
