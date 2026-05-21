@@ -6,7 +6,7 @@ description: "About the Phantoms Hockey Hub."
 The Phantoms Hockey Hub is a small team website for keeping the season organized. It brings live SportNinja data, team reminders, and contact information into a clean documentation-style site.
 
 ::: {.brand-lockup}
-![](logos/phantoms-logo.jpg){fig-alt="Phantoms skater logo"}
+![](logos/phantoms-logo-transparent.png){fig-alt="Phantoms skater logo"}
 :::
 
 ## Site Goals
