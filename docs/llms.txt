@@ -1,0 +1,25 @@
+# Phantoms Hockey Hub
+
+> Phantoms Hockey Hub is the public team website for Phantoms hockey families, players, and supporters. It points visitors to live team information, season notes, and contact details for the team.
+
+This file is a concise, public guide for language models and AI agents. It intentionally covers only public basics and should not be treated as a source for private roster details, player-level summaries, or unpublished team information. Live schedule, standings, statistics, announcements, and results are provided through the embedded SportNinja team center.
+
+Canonical site: https://phantomshockey.org/
+
+## Primary Pages
+
+- [Home](https://phantomshockey.org/): Overview of the Phantoms Hockey Hub and links to the key site areas.
+- [Team Center](https://phantomshockey.org/team.html): Live SportNinja-powered hub for schedule, standings, statistics, announcements, and recent results.
+- [Season](https://phantomshockey.org/season.html): Public season notes, reminders, useful links, and update history.
+- [About](https://phantomshockey.org/about.html): Site purpose and public overview of the Phantoms Hockey Hub.
+- [Contact](https://phantomshockey.org/contact.html): Public contact path for team questions, schedule updates, and corrections.
+
+## Machine-Readable Context
+
+- [Full public context](https://phantomshockey.org/llms-full.txt): Plain-language summary of the site, audience, canonical URLs, and crawler guidance.
+- [Sitemap](https://phantomshockey.org/sitemap.xml): Complete list of public HTML pages intended for search discovery.
+- [Robots](https://phantomshockey.org/robots.txt): Crawler discovery file with sitemap and LLM guide references.
+
+## Optional
+
+- [SportNinja](https://www.sportninja.com/): External platform that powers the embedded live team data.
