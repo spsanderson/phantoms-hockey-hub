@@ -6,11 +6,14 @@ project:
   resources:
     - CNAME
     - logos/
+    - robots.txt
+    - llms.txt
+    - llms-full.txt
 
 website:
   title: "Phantoms Hockey Hub"
   site-url: "https://phantomshockey.org/"
-  description: "Team hub for Phantoms hockey schedules, standings, statistics, announcements, and season information."
+  description: "Team hub for Phantoms hockey schedules, standings, announcements, contact information, and season notes."
   favicon: logos/phantoms-logo.jpg
   image: logos/phantoms-banner.jpg
   page-navigation: true
@@ -61,4 +64,36 @@ format:
     link-external-newwindow: true
     include-in-header:
       text: |
-        <meta name="description" content="Official hub for Phantoms hockey schedules, standings, statistics, announcements, and team updates.">
+        <meta name="robots" content="index, follow">
+        <meta property="og:site_name" content="Phantoms Hockey Hub">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://phantomshockey.org/logos/phantoms-banner.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://phantomshockey.org/#website",
+              "url": "https://phantomshockey.org/",
+              "name": "Phantoms Hockey Hub",
+              "description": "Team hub for Phantoms hockey schedules, standings, announcements, contact information, and season notes.",
+              "inLanguage": "en-US",
+              "publisher": {
+                "@id": "https://phantomshockey.org/#organization"
+              }
+            },
+            {
+              "@type": ["SportsTeam", "Organization"],
+              "@id": "https://phantomshockey.org/#organization",
+              "name": "Phantoms",
+              "url": "https://phantomshockey.org/",
+              "sport": "Ice hockey",
+              "logo": "https://phantomshockey.org/logos/phantoms-logo.jpg",
+              "image": "https://phantomshockey.org/logos/phantoms-banner.jpg",
+              "email": "admin@phantomshockey.org"
+            }
+          ]
+        }
+        </script>

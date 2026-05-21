@@ -1,1 +1,8 @@
+User-agent: *
+Allow: /
+
 Sitemap: https://phantomshockey.org/sitemap.xml
+
+# Non-standard AI/LLM context guide for agents that look for it.
+# See: https://phantomshockey.org/llms.txt
+LLMs: https://phantomshockey.org/llms.txt

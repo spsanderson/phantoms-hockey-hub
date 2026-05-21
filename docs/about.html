@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -42,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a024832eae51bd058385587fb75a417b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-231b01ab6b2192238d6a9bf79acd6745.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +73,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<meta name="description" content="Official hub for Phantoms hockey schedules, standings, statistics, announcements, and team updates.">
+<meta name="robots" content="index, follow">
+<meta property="og:site_name" content="Phantoms Hockey Hub">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://phantomshockey.org/logos/phantoms-banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://phantomshockey.org/#website",
+      "url": "https://phantomshockey.org/",
+      "name": "Phantoms Hockey Hub",
+      "description": "Team hub for Phantoms hockey schedules, standings, announcements, contact information, and season notes.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://phantomshockey.org/#organization"
+      }
+    },
+    {
+      "@type": ["SportsTeam", "Organization"],
+      "@id": "https://phantomshockey.org/#organization",
+      "name": "Phantoms",
+      "url": "https://phantomshockey.org/",
+      "sport": "Ice hockey",
+      "logo": "https://phantomshockey.org/logos/phantoms-logo.jpg",
+      "image": "https://phantomshockey.org/logos/phantoms-banner.jpg",
+      "email": "admin@phantomshockey.org"
+    }
+  ]
+}
+</script>
 
 
 </head>
@@ -209,8 +241,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The Phantoms Hockey Hub is a small team website for keeping the season organized. It brings live SportNinja data, team reminders, and contact information into a clean documentation-style site.</p>
-<div class="brand-lockup" style="margin-left: auto; margin-right: auto; text-align: center;">
-<p><img src="logos/phantoms-logo-transparent.png" class="img-fluid" style="display: block; width: min(360px, 100%); margin: 0 auto;" alt="Phantoms skater logo"></p>
+<div class="brand-lockup">
+<p><img src="logos/phantoms-logo-transparent.png" class="img-fluid" alt="Phantoms skater logo"></p>
 </div>
 <section id="site-goals" class="level2">
 <h2 class="anchored" data-anchor-id="site-goals">Site Goals</h2>
@@ -310,7 +342,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^https:\\/\\/(www\\.)?phantomshockey\\.org\\/");
+        var filterRegex = new RegExp("https:\/\/phantomshockey\.org\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
