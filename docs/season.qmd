@@ -42,7 +42,7 @@ Google Maps Link: [https://maps.app.goo.gl/ByVGqeR72tDojN4q6](https://maps.app.g
 ::: {.season-item}
 ### Updates
 
-Add a short change log for schedule updates, roster notes, or team announcements.
+We have a new player coming to our team. His name is Parker and he will be our team goalie. Please make sure you say hello and make him feel welcome!
 :::
 :::
 
@@ -58,5 +58,6 @@ Add a short change log for schedule updates, roster notes, or team announcements
 
 | Date | Update |
 |---|---|
+| 2026-05-20 | Several site updates made. |
 | 2026-05-18 | Initial Quarto website structure created. |
 
