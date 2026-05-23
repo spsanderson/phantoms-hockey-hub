@@ -312,6 +312,121 @@ main h2 {
     linear-gradient(135deg, #fff, rgba(232, 226, 239, 0.88));
 }
 
+.learning-intro {
+  margin: 1rem 0 2rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(232, 226, 239, 0.82)),
+    url("logos/phantoms-banner.jpg") right center / auto 140%;
+  box-shadow: var(--phantom-shadow);
+  color: var(--phantom-ink);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.filter-button {
+  display: inline-flex;
+  min-height: 2.35rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.82rem;
+  border: 1px solid var(--phantom-lavender);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.84);
+  color: var(--phantom-purple);
+  font-size: 0.88rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.filter-button.active,
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--phantom-purple);
+  color: #fff;
+  text-decoration: none;
+}
+
+.learning-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.learning-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(18rem, 0.92fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.video-card,
+.learning-detail-card,
+.resource-card,
+.media-note {
+  border: 1px solid var(--phantom-line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 12px 28px rgba(33, 20, 44, 0.08);
+}
+
+.video-card {
+  overflow: hidden;
+}
+
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--phantom-ink);
+}
+
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.learning-detail-card,
+.resource-card,
+.media-note {
+  padding: 1.25rem;
+}
+
+.learning-detail-card h3,
+.resource-card h3 {
+  margin-top: 0;
+  color: var(--phantom-purple);
+  font-weight: 900;
+}
+
+.learning-detail-card .button,
+.resource-card .button {
+  margin-top: 0.5rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.media-note {
+  margin: 1.5rem 0 2rem;
+  border-left: 4px solid var(--phantom-blue);
+  background: rgba(232, 226, 239, 0.72);
+}
+
 main table {
   border: 1px solid var(--phantom-line);
   border-radius: 8px;
@@ -344,6 +459,8 @@ main thead {
   .feature-grid,
   .season-list,
   .stat-strip,
+  .learning-row,
+  .resource-grid,
   .split-layout {
     grid-template-columns: 1fr;
   }
@@ -359,6 +476,10 @@ main thead {
   .team-center-header {
     background: linear-gradient(90deg, rgba(232, 226, 239, 0.98), rgba(157, 185, 207, 0.48));
   }
+
+  .learning-intro {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(232, 226, 239, 0.9));
+  }
 }
 
 @media (max-width: 560px) {
@@ -368,5 +489,9 @@ main thead {
 
   .button {
     width: 100%;
+  }
+
+  .filter-button {
+    flex: 1 1 100%;
   }
 }

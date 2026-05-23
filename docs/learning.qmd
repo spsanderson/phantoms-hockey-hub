@@ -1,0 +1,178 @@
+---
+title: "Phantoms Development Hub"
+description: "Training videos, helpful links, and simple off-rink drills for Phantoms players and families."
+---
+
+::: {.learning-intro}
+<p class="eyebrow eyebrow-dark">Learning Hub</p>
+
+Work on your game when the rink is closed. No ice, no skates--just grab a stick and a ball.
+
+::: {.filter-row}
+[All](#featured-videos){.filter-button .active}
+[Youth Drills](#the-daily-warm-up){.filter-button}
+[Advanced/Adult](#deep-dive-workouts){.filter-button}
+[Coaches](#quick-resources){.filter-button}
+:::
+:::
+
+## Featured Videos
+
+Because dek hockey relies on quick hands, ball control, body position, and agility on foot, off-ice and ball-specific training videos can be useful practice references for players at home.
+
+::: {.learning-grid}
+::: {.learning-row #the-daily-warm-up}
+::: {.video-card}
+::: {.video-frame}
+```{=html}
+<iframe src="https://www.youtube-nocookie.com/embed/7HluVwbAv3w" title="5 Minute DAILY Stickhandling Routine" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+:::
+:::
+
+::: {.learning-detail-card}
+<p class="eyebrow eyebrow-dark">Youth Drills</p>
+
+### The Daily Warm-Up
+
+**Video:** 5 Minute DAILY Stickhandling Routine  
+**Channel:** How To Hockey - Coach Jeremy
+
+**Skill focus:** Quick hands, wrist flexibility, and top-hand control.
+
+**Equipment needed:** Dek hockey stick, orange ball or green biscuit, smooth flat surface such as a driveway or garage.
+
+**The drill:** Five minutes every day before picking up your phone. Focus on looking up, not down at the ball.
+
+[Watch Video](https://www.youtube.com/watch?v=7HluVwbAv3w){.button .button-primary}
+:::
+:::
+
+::: {.learning-row #deep-dive-workouts}
+::: {.video-card}
+::: {.video-frame}
+```{=html}
+<iframe src="https://www.youtube-nocookie.com/embed/RHtdlyH2YG0" title="30-Minute Stickhandling Session (Follow Along!)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+:::
+:::
+
+::: {.learning-detail-card}
+<p class="eyebrow eyebrow-dark">Advanced/Adult</p>
+
+### Deep-Dive Workouts
+
+**Video:** 30-Minute Stickhandling Session (Follow Along!)  
+**Channel:** Hockey Training
+
+**Skill focus:** Endurance, reaction time, and wide-reach puck handling.
+
+**Equipment needed:** Training ball, two cones or shoes spaced about 3 feet apart.
+
+**The drill:** Follow along for a longer workout. Great for pre-season conditioning or weekend homework. Split the effort into 40-second work intervals and 20-second rest.
+
+[Watch Video](https://www.youtube.com/watch?v=RHtdlyH2YG0){.button .button-primary}
+:::
+:::
+
+::: {.learning-row #team-tactics-dek-strategy}
+::: {.video-card}
+::: {.video-frame}
+```{=html}
+<iframe src="https://www.youtube-nocookie.com/embed/rG2W6CcgjVY" title="Stick Skillz Ball Hockey (Stick Handling)" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+:::
+:::
+
+::: {.learning-detail-card}
+<p class="eyebrow eyebrow-dark">All Levels</p>
+
+### Team Tactics & Dek Strategy
+
+**Video:** Stick Skillz Ball Hockey (Stick Handling)  
+**Channel:** StickSkillz
+
+**Skill focus:** Body positioning, shielding the ball from defenders, and shooting mechanics on foot.
+
+**Equipment needed:** Net or target tarp.
+
+**The tip:** Notice how players set their feet and transfer weight without relying on skate glides. Practice pulling the ball slightly toward your feet before releasing the shot to change the angle on the goalie.
+
+[Watch Video](https://www.youtube.com/watch?v=rG2W6CcgjVY){.button .button-primary}
+:::
+:::
+:::
+
+## Skills By Category
+
+::: {.feature-grid .compact}
+::: {.feature-card}
+### Youth Drills
+
+Short, repeatable routines for driveway touches, confidence, and top-hand control.
+:::
+
+::: {.feature-card}
+### Advanced/Adult
+
+Longer sessions for conditioning, reach, reaction time, and faster hands under fatigue.
+:::
+
+::: {.feature-card}
+### Coaches
+
+Practice-plan placeholders and simple homework ideas for players between games.
+:::
+:::
+
+## Quick Resources
+
+::: {.resource-grid}
+::: {.resource-card}
+### Official Rules
+
+USA Dek Hockey or local league rulebook link coming soon.
+
+[Open Resource](#){.button .button-secondary}
+:::
+
+::: {.resource-card}
+### Gear Guide
+
+Dek-specific shoes, stick blades, balls, and basic protection recommendations coming soon.
+
+[Open Resource](#){.button .button-secondary}
+:::
+
+::: {.resource-card}
+### Practice Plans
+
+Downloadable PDF templates for Phantoms coaches coming soon.
+
+[Download Guide](#){.button .button-secondary}
+:::
+:::
+
+## Follow The Phantoms
+
+::: {.resource-grid}
+::: {.resource-card}
+### YouTube
+
+Team video channel placeholder.
+
+[Open Resource](#){.button .button-primary}
+:::
+
+::: {.resource-card}
+### Instagram
+
+Team social feed placeholder.
+
+[Open Resource](#){.button .button-primary}
+:::
+:::
+
+::: {.media-note}
+**Media and privacy note:** Embedded videos are included as training references for families and players. Please follow your household's media, privacy, and supervision preferences when using YouTube, Instagram, or any external platform.
+:::

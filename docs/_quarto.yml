@@ -31,6 +31,8 @@ website:
         href: team.qmd
       - text: "Season"
         href: season.qmd
+      - text: "Learning"
+        href: learning.qmd
       - text: "About"
         href: about.qmd
       - text: "Contact"
@@ -41,6 +43,7 @@ website:
       contents:
         - team.qmd
         - season.qmd
+        - learning.qmd
         - about.qmd
         - contact.qmd
   page-footer:
@@ -48,6 +51,8 @@ website:
     center:
       - text: "Team Center"
         href: team.qmd
+      - text: "Learning"
+        href: learning.qmd
       - text: "Contact"
         href: contact.qmd
     right: "Built with Quarto"

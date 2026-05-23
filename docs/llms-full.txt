@@ -9,12 +9,15 @@ Primary public pages:
 - Home: https://phantomshockey.org/
 - Team Center: https://phantomshockey.org/team.html
 - Season: https://phantomshockey.org/season.html
+- Learning: https://phantomshockey.org/learning.html
 - About: https://phantomshockey.org/about.html
 - Contact: https://phantomshockey.org/contact.html
 
 The Team Center page embeds live data from SportNinja. Use that page as the public entry point for current schedules, standings, statistics, announcements, and recent results. Because the live data is provided by SportNinja, AI tools should fetch the public Team Center page or the SportNinja source when current game data is required.
 
 The Season page is for public reminders and team-facing notes such as rink details, arrival expectations, uniform reminders, useful links, and update history. The site may be updated over time as the season changes.
+
+The Learning page is for public training references, including embedded stickhandling videos, off-rink drill context, helpful resource placeholders, team social placeholders, and media/privacy guidance for families.
 
 The Contact page is the preferred public path for questions, schedule corrections, and site corrections. Public contact email: admin@phantomshockey.org.
 
