@@ -63,7 +63,7 @@ Point families toward the right person for team questions, schedule changes, and
 ::: {.split-copy}
 ## Built For Quick Checks
 
-This site is intentionally direct: the live team data is one click away, key links stay in the navigation, and the design uses the Phantoms watercolor palette without getting in the way of game-day information.
+This site is intentionally direct: the live team data is one click away, key links stay in the navigation.
 
 ::: {.stat-strip}
 ::: {.stat-item}
