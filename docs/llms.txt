@@ -11,6 +11,7 @@ Canonical site: https://phantomshockey.org/
 - [Home](https://phantomshockey.org/): Overview of the Phantoms Hockey Hub and links to the key site areas.
 - [Team Center](https://phantomshockey.org/team.html): Live SportNinja-powered hub for schedule, standings, statistics, announcements, and recent results.
 - [Season](https://phantomshockey.org/season.html): Public season notes, reminders, useful links, and update history.
+- [Learning](https://phantomshockey.org/learning.html): Training videos, practice resources, social placeholders, and media/privacy guidance for off-rink development.
 - [About](https://phantomshockey.org/about.html): Site purpose and public overview of the Phantoms Hockey Hub.
 - [Contact](https://phantomshockey.org/contact.html): Public contact path for team questions, schedule updates, and corrections.
 
