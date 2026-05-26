@@ -33,7 +33,7 @@ Because dek hockey relies on quick hands, ball control, body position, and agili
 ::: {.learning-detail-card}
 <p class="eyebrow eyebrow-dark">Youth Drills</p>
 
-### The Daily Warm-Up
+### The Daily Warm-Up {#the-daily-warm-up-details}
 
 **Video:** 5 Minute DAILY Stickhandling Routine  
 **Channel:** How To Hockey - Coach Jeremy
@@ -60,7 +60,7 @@ Because dek hockey relies on quick hands, ball control, body position, and agili
 ::: {.learning-detail-card}
 <p class="eyebrow eyebrow-dark">Advanced/Adult</p>
 
-### Deep-Dive Workouts
+### Deep-Dive Workouts {#deep-dive-workouts-details}
 
 **Video:** 30-Minute Stickhandling Session (Follow Along!)  
 **Channel:** Hockey Training
@@ -87,7 +87,7 @@ Because dek hockey relies on quick hands, ball control, body position, and agili
 ::: {.learning-detail-card}
 <p class="eyebrow eyebrow-dark">All Levels</p>
 
-### Team Tactics & Dek Strategy
+### Team Tactics & Dek Strategy {#team-tactics-dek-strategy-details}
 
 **Video:** Stick Skillz Ball Hockey (Stick Handling)  
 **Channel:** StickSkillz
@@ -99,7 +99,6 @@ Because dek hockey relies on quick hands, ball control, body position, and agili
 **The tip:** Notice how players set their feet and transfer weight without relying on skate glides. Practice pulling the ball slightly toward your feet before releasing the shot to change the angle on the goalie.
 
 [Watch Video](https://www.youtube.com/watch?v=rG2W6CcgjVY){.button .button-primary}
-:::
 :::
 :::
 :::
