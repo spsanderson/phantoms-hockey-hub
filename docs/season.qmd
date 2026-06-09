@@ -23,18 +23,28 @@ On game day here are a few things everyone should do:
 - Make sure you have your jersey, stick, protection and water.
 
 - Come ready as if you are playing for the cup.
+
+- Next game June 14, 2026 against the JR Goats, we are the home team.
 :::
 
 ::: {.season-item}
 ### Practice
 
-None Scheduled.
+June 19th 5:30PM - 6:30PM at Flexible Arena located at: 290 Motor Pkwy, Hauppauge, NY 11788
+
+From Coach Andrew: 
+
+[https://flexiblearena.com/](https://flexiblearena.com/) This is the arena website for flexible practices. Everyone MUST sign the waiver forms in order to participate. Create an account, sign up for team Phantoms (Andrew Flynn). Please read over arena rules. This is a totally free place, they only ask to follow the rules, sign waiver and keep it clean! Please make best efforts to make it to this practice. Having the full team cooperation and attendance is really going to help our little champions get back into a winning rhythm. Lets go phantoms!
 :::
 
 ::: {.season-item}
 ### Updates
 
-- We have a new player coming to our team. His name is Parker and he will be our team goalie. Please make sure you say hello and make him feel welcome!
+Last game balls on May 31, 2026 went to:
+
+- Regan, 
+- Parker, and 
+- Tommy
 :::
 :::
 
@@ -50,6 +60,7 @@ None Scheduled.
 
 | Date | Update |
 |---|---|
+| 2026-06-08 | Update practice and game infoormation. |
 | 2026-05-20 | Several site updates made. |
 | 2026-05-18 | Initial Quarto website structure created. |
 
