@@ -24,13 +24,13 @@ On game day here are a few things everyone should do:
 
 - Come ready as if you are playing for the cup.
 
-- Next game June 14, 2026 against the JR Goats, we are the home team.
+- Next game June 28, 2026 against the Bandits, we are the visiting team.
 :::
 
 ::: {.season-item}
 ### Practice
 
-June 19th 5:30PM - 6:30PM at Flexible Arena located at: 290 Motor Pkwy, Hauppauge, NY 11788
+June 26th 5:30PM - 6:30PM at Flexible Arena located at: 290 Motor Pkwy, Hauppauge, NY 11788
 
 From Coach Andrew: 
 
@@ -40,11 +40,41 @@ From Coach Andrew:
 ::: {.season-item}
 ### Updates
 
-Last game balls on May 31, 2026 went to:
+Game Balls:
+
+2026-06-20
+
+- Jackson
+
+2026-06-14
+
+- Tommy
+- Parker
+
+2026-05-31
 
 - Regan, 
 - Parker, and 
 - Tommy
+
+2026-05-24
+
+- Parker
+- Logan
+
+2026-05-17
+
+- Aurora
+- Alex
+
+2026-05-10
+
+- Teddy
+- Stella
+
+2025-05-05
+
+- Andi
 :::
 :::
 
@@ -60,7 +90,8 @@ Last game balls on May 31, 2026 went to:
 
 | Date | Update |
 |---|---|
-| 2026-06-08 | Update practice and game infoormation. |
+| 2026-06-22 | Update practice, game and game balls. |
+| 2026-06-08 | Update practice and game information. |
 | 2026-05-20 | Several site updates made. |
 | 2026-05-18 | Initial Quarto website structure created. |
 
