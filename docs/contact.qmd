@@ -8,7 +8,7 @@ Use this page for team questions, schedule updates, and corrections to the site.
 ::: {.contact-panel}
 ## Team Contact
 
-To contact the Phantoms for any inquiries, such as joining the team [Contact Us](mailto:admin@phantomshockey.org).
+To contact the Phantoms for any inquiries, such as joining the team [Contact Us](mailto:spsanderson@gmail.com).
 
 ::: {.contact-actions}
 [Team Center](team.qmd){.button .button-primary}
