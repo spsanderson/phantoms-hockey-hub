@@ -23,7 +23,7 @@ The team center below is powered by SportNinja and gathers the live season feed 
 <script type="text/javascript">
   window.snPlugin.init();
   window.snPlugin.renderOrganization({
-    teamId: "Z6UmwMtff38o8OkO",
+    teamId: "aJ9o5EcXHVwnTKQ8",
     backgroundColor: "transparent",
     textColor: "#261336",
     headerBackgroundColor: "#E8E2EF",
