@@ -21,7 +21,7 @@ Keep schedule, standings, statistics, and recurring team notes in one place.
 ::: {.feature-card}
 ### Clarify
 
-Any questions, please see us at the game/practice or email us.
+If you have questions, please see us at the game/practice or email us.
 :::
 
 ::: {.feature-card}
