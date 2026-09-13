@@ -121,7 +121,7 @@
     "href": "about.html#site-goals",
     "title": "About",
     "section": "Site Goals",
-    "text": "Site Goals\n\n\nCentralize\nKeep schedule, standings, statistics, and recurring team notes in one place.\n\n\nClarify\nMake the next useful action obvious for families checking the site from a phone.\n\n\nPreserve\nKeep a simple season history as information changes over time.",
+    "text": "Site Goals\n\n\nCentralize\nKeeps schedule, standings, statistics, and recurring team notes in one place.\n\n\nClarify\nAny questions, please see us at the game/practice or email us.\n\n\nPreserve\nKeep a simple season history as information changes over time.",
     "crumbs": [
       "Team Center",
       "About"
@@ -213,6 +213,17 @@
     "crumbs": [
       "Team Center",
       "Season"
+    ]
+  },
+  {
+    "objectID": "about.html#some-historyinformation",
+    "href": "about.html#some-historyinformation",
+    "title": "About",
+    "section": "Some History/Information",
+    "text": "Some History/Information\nThis is the fourth season of the phantoms. We are tiny but might and have one season cup under our belt!\nThe coaches are:\n\nAndrew\nDre, and\nSteve\n\nCurrent Roster",
+    "crumbs": [
+      "Team Center",
+      "About"
     ]
   }
 ]
