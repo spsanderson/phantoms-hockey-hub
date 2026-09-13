@@ -21,7 +21,7 @@ Keep schedule, standings, statistics, and recurring team notes in one place.
 ::: {.feature-card}
 ### Clarify
 
-Make the next useful action obvious for families checking the site from a phone.
+If you have questions, please see us at the game/practice or email us.
 :::
 
 ::: {.feature-card}
@@ -31,6 +31,15 @@ Keep a simple season history as information changes over time.
 :::
 :::
 
-## Content To Add
+## Some History/Information
 
-Add the team story, league name, age group, rink details, coach or manager information, and any wording you want families to see when they first encounter the site.
+This is the fourth season of the Phantoms. We are tiny but mighty and have one season cup under our belt!
+
+The coaches are:
+
+- Andrew
+- Dre
+- Steve
+
+[Current Roster](https://phantomshockey.org/team.html#/team/aJ9o5EcXHVwnTKQ8/roster)
+
