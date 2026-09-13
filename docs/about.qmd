@@ -15,7 +15,7 @@ The Phantoms Hockey Hub is a small team website for keeping the season organized
 ::: {.feature-card}
 ### Centralize
 
-Keeps schedule, standings, statistics, and recurring team notes in one place.
+Keep schedule, standings, statistics, and recurring team notes in one place.
 :::
 
 ::: {.feature-card}
