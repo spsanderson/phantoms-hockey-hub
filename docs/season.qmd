@@ -24,7 +24,7 @@ On game day here are a few things everyone should do:
 
 - Come ready as if you are playing for the cup.
 
-- Next game: September 26, 2026 @ 9 AM - [https://phantomshockey.org/team.html#/game/6oKj0uwpPrj76ta5](https://phantomshockey.org/team.html#/game/6oKj0uwpPrj76ta5).
+- Next game: September 30, 2026 @ 6 PM. We are the visiting team against the Tikis - [https://phantomshockey.org/team.html#/game/W4PbZ5WkVVhSVik4](https://phantomshockey.org/team.html#/game/W4PbZ5WkVVhSVik4).
 :::
 
 ::: {.season-item}
@@ -34,13 +34,15 @@ On game day here are a few things everyone should do:
 
 Google Maps Link: [Directions to Flexible Arena](https://maps.app.goo.gl/fhzTw17Wyrdjp9s16)
 
-No practice this Friday.
+Next Practice is October 16th at 5:30 PM, this is the only time we could get. Ice hockey has started back up so practice slots are tough and only one at a time may be booked.
 :::
 
 ::: {.season-item}
 ### Updates
 
 Game Balls:
+
+2026-09-26 - Andi, Alex, Tommy
 
 2026-09-21 - Jack, Joe
 
@@ -61,8 +63,7 @@ Game Balls:
 
 | Date | Update |
 |---|---|
-| 2026-07-05 | Update practice, game and game balls. |
-| 2026-06-22 | Update practice, game and game balls. |
+| 2026-09-28 | Update practice, game and game balls. |
 | 2026-06-08 | Update practice and game information. |
 | 2026-05-20 | Several site updates made. |
 | 2026-05-18 | Initial Quarto website structure created. |
